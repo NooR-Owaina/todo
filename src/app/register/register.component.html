@@ -1,0 +1,18 @@
+<div>
+    <form #userForm="ngForm" (ngSubmit)="register(userForm.value)" >
+        <img src="../../IMG_3088.PNG">
+        <h1>register!</h1>
+        <input type="text" name="firstName" placeholder="your name" ngModel> 
+        <input type="text" name="lastName" placeholder="your last name" ngModel> 
+        <input type="text" name="age" placeholder="your age" ngModel> 
+        <select  ngModel>
+            <option name="Gender" disabled selected >Gender..</option>
+            <option>Female</option>
+            <option>Male</option>
+        </select> 
+        <input type="text" name="email" placeholder="your email" ngModel> 
+        <input type="password" name="password" placeholder="generate password" ngModel> 
+        <input type="password" name="confirmPassword" placeholder="confirm password" ngModel> 
+        <button type="submit" >continue</button>
+    </form>
+</div>

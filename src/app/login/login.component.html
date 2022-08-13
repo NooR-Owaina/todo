@@ -1,0 +1,9 @@
+<div>
+    <form id="loginForm" #loginForm="ngForm" (ngSubmit)="login(loginForm.value)" >
+        <img src="../../IMG_3088.PNG">
+        <h1>login!</h1>
+        <input type="text" name="email" placeholder="email" ngModel> 
+        <input type="password" name="password" placeholder="password"ngModel>
+        <button type="submit">continue</button> 
+    </form>
+</div>

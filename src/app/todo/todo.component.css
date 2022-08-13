@@ -1,0 +1,32 @@
+aside {
+    background-color: #72439ebe;
+    width: 40vw;
+    height: 100vh;
+    border-radius: 30px;
+    display: inline-block;
+    position: fixed;
+    align-items: center;
+
+}
+h2{
+    width: 80%;
+    margin: 8vw;
+    font-size: 40px;
+    color: #022209;
+}
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: space-evenly;
+}
+li {
+    font-size: 25px;
+    color: #002508;
+}
+a{
+    font-style: unset;
+    text-decoration: inherit;
+    color: inherit;
+}
